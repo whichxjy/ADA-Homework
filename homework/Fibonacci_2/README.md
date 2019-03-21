@@ -20,11 +20,15 @@ For each test case, print the Fn mod (10^9 + 7).
 
 ## Sample Input
 
+```
 9
+```
 
 ## Sample Output
 
+```
 34
+```
 
 ## Hint
 

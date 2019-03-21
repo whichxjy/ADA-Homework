@@ -20,8 +20,11 @@ There are multiple test cases!
 
 ## Sample Input
 
+```
 9
-
+```
 ## Sample Output
 
+```
 34
+```

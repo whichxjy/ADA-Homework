@@ -24,6 +24,7 @@ Output a single number B(T).
 
 ## Sample Input
 
+```
 5
 
 0 5
@@ -35,10 +36,13 @@ Output a single number B(T).
 3 2
 
 4 3
+```
 
 ## Sample Output
 
+```
 45
+```
 
 ## Hint
 
