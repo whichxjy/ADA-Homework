@@ -22,9 +22,9 @@
 求余算法的代码如下：
 
 ```cpp
-int mod(std::string divided, int divisor) {
+int mod(const std::string& dividend, int divisor) {
     int ret = 0;
-    for (char dig : divided) {
+    for (char dig : dividend) {
         ret = (ret * 10 + (dig - '0')) % divisor;
     }
     return ret;

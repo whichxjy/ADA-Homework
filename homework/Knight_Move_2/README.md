@@ -1,4 +1,4 @@
-# Solution
+# Knight Move 2
 
 ## Description
 
