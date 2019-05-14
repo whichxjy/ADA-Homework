@@ -30,7 +30,7 @@ bool BFS(int graph[MAX_V][MAX_V], int V, int s, int t, std::vector<int>& parent)
         visited[v] = true;
 
         for (int i = 0; i < V; i++) {
-            if (rGraph[v][i] > 0 && !visited[i]) {
+            if (graph[v][i] > 0 && !visited[i]) {
                 q.push(i);
                 parent[i] = v;
             }
