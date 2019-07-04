@@ -6,9 +6,9 @@ int main() {
     std::string String_A, String_B;
     while (std::cin >> String_A >> String_B) {
         // Longest Common Subsequence
-        int** lcs = new int*[String_B.size() + 1];
-        for (int i = 0; i <= String_B.size(); i++) {
-            lcs[i] = new int[String_A.size() + 1];
+        int** lcs = new int*[String_A.size() + 1];
+        for (int i = 0; i <= String_A.size(); i++) {
+            lcs[i] = new int[String_B.size() + 1];
         }
 
         for (int i = 0; i <= String_A.size(); i++) {
@@ -27,7 +27,7 @@ int main() {
 
         std::cout << lcs[String_A.size()][String_B.size()] << std::endl;
 
-        for (int i = 0; i < String_B.size(); i++) {
+        for (int i = 0; i <= String_A.size(); i++) {
             delete[] lcs[i];
         }
         delete[] lcs;
